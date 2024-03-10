@@ -1,0 +1,51 @@
+body {
+    background-image: url("../Img/Programacion.avif");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.chat-container {
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.chat-box {
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    overflow-y: scroll;
+    max-height: 300px;
+}
+
+.user-msg {
+    text-align: right;
+}
+
+.bot-msg {
+    text-align: left;
+}
+
+.btn-estructuras {
+    background-color: #DE5208;
+    color: white;
+}
+
+.btn-auto-width {
+    white-space: normal !important;
+    width: auto !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.chat-box {
+    overflow: hidden; 
+    max-height: 100%; 
+  }
+  
